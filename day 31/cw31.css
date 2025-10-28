@@ -1,0 +1,17 @@
+/* მშობელ ელემენტში მყოფ ელემენტებს ალაგებს 3 ხაზზე თანაბრად */
+
+
+
+
+
+.container {
+    width: 500px; 
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;       
+}
