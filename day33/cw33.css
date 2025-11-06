@@ -1,0 +1,58 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  translate: right(50px);
+}
+
+.cube1 {
+  background: royalblue;
+  transform: translate(50px) rotate(15deg);
+}
+
+.cube2 {
+  background: rgb(0, 255, 115);
+  transform: scale(5) rotate(10deg);
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: transform 4s, background-color 3s;
+}
+
+.box:hover {
+  background: rgb(63, 2, 2);             
+  transform: scale(2) rotate(40deg); 
+}
+
+
+
+
+
+/* transition -სწრაფად კი არ გადახტება ახალ მდგომარეობაში,
+არამედ დაიძრება ნელა */
+
+
+
+
+/* translate — ნიშნავს ელემენტის გადაადგილებას  მარცხნივ, მარჯვნივ, ზემოთ ან ქვემოთ. */
+/* rotate — ატრიალებს ელემენტს. */
+/* scale — ადიდებს ან ამცირებს ელემენტს. */

@@ -1,0 +1,33 @@
+/* 1) გააკეთე ბლოკი, რომელსაც hover-ზე მიეცემა transform: scale(1.2);
+
+2) შექმენი ღილაკი, რომელიც hover-ზე ოდნავ მარცხნივ გადაინაცვლებს (transform: translateX(-10px);)
+
+3) დააყენე transition: 0.3s; ბლოკზე, რომ hover ეფექტი იყოს გლუვი
+
+4) შექმენი ელემენტი, რომელიც hover-ზე ოდნავ მობრუნდება (transform: rotate(10deg);)
+
+5) დაამატე transition: all 0.5s ease; და hover-ზე გაერთიფერდეს (transform: scale(1.1) rotate(5deg);) */
+
+body{
+ background-color: black;   
+}
+
+.box:hover{
+ transform: scale(2.1);
+}
+
+.luka:hover{
+ transform: translateX(-100px);
+}
+
+.live:hover{
+ transition: 0,3;
+}
+
+.element:hover{
+    transform: rotate(20deg);
+}
+.element2:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1) rotate(5deg);
+}
