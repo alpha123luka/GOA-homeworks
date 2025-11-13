@@ -1,0 +1,48 @@
+/* ease ;linear ; ease-in ; ease-in-out */
+/* animation-delay უბრალოდ  უთითებს, რა დრო უნდა გავიდეს, სანამ ანიმაცია დაიწყება. */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  transition: background-color 5s ease-out, transform 3s linear;
+}
+
+
+.box:hover {
+  background-color: green;
+  transform: scale(4);
+} */
+
+
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: moveRight;
+  animation-duration: 3s;
+  animation-delay: 0s;      
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes moveRight {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 400px;
+  }
+}
