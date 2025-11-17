@@ -1,0 +1,38 @@
+
+@keyframes  animation{
+    translateX
+} 
+
+@keyframes colorchange{
+    100%{
+        background-color: blue;
+        animation-duration: 3s;
+    }
+} 
+ @keyframes rotateBlock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+  @keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5); 
+  }
+  100% {
+    transform: scale(1);
+  }
+} 
