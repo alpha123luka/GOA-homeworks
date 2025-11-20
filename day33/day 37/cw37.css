@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: hsl(263, 55%, 52%);
+    color: white;
+    border-radius: 12px;
+    width: 2250px;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    font-size: 14px;
+    margin-top: 10px;
+}
