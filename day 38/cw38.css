@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    gap: 500px;
+}
+
+.box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    animation-name: spin;
+    animation-duration: 10s;
+}
+
+@keyframes spin{
+    10%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
