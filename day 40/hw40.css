@@ -1,0 +1,81 @@
+/* 1) გააკეთე ტექსტი <p>, რომელიც დიდი ეკრანისთვის აქვს font-size: 24px, ხოლო @media (max-width: 600px) გამოყენებით პატარა ეკრანზე font-size: 16px
+
+2) შექმენი <div>, რომელიც დიდი ეკრანზე აქვს სიგანე 400px, ხოლო @media (max-width: 600px) გამოყენებით გახდება 100% სიგანის
+
+3) გააკეთე ორი ბლოკი, რომლებიც დიდ ეკრანზე flex-ით გვერდიგვერდ არიან, ხოლო @media (max-width: 700px)-ზე ქვევით გადადიან column ფორმაში
+
+4) შექმენი სურათი <img>, რომელსაც დიდ ეკრანზე აქვს height: 300px, ხოლო @media (max-width: 500px) გამოყენებით height: 150px
+
+5) გააკეთე ღილაკი <button>, რომელსაც დიდ ეკრანზე აქვს padding: 20px, ხოლო @media (max-width: 600px)-ზე padding: 10px */
+
+
+p {
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+.responsive {
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 20px; 
+}
+
+.container {
+  display: flex; 
+  padding: 20px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+
+.responsive-img {
+  height: 300px;
+  width: 200px; 
+}
+
+@media (max-width: 500px) {
+  .responsive-img {
+    height: 150px;
+  }
+}
+
+.responsive-btn {
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+  .responsive-btn {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
