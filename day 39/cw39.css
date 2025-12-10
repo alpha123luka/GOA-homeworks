@@ -64,7 +64,7 @@
     color:white;
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .card{
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .card2{
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .card3{
     display: flex;
     align-items: center;
@@ -106,57 +106,61 @@
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .button1{
     transform: translate(-700, 200);
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .button2{
     transform: translate(-700, 200);
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .button2{
     transform: translate(-700, 200);
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .button3{
     transform: translate(-700, 200);
 }
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
     .img1{
     transform: translate(1000, -100);
 }
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
     .img2{
     transform: translate(1000, -100);
 }
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
     .img3{
     transform: translate(1000, -100);
 }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .card-Text{
     color: white;
 } 
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .card-Text2{
     color: white;
 }
 }
-@media(max-width: 768px){
+
+@media(max-width: 768px) {
     .card-Text3{
     color:white;
 }
