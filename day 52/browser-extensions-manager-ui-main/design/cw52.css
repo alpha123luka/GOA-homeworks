@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: darkblue;
+}
+
+.container{
+    max-width: 1100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.filters{
+    border: none;
+    border-radius: 20px;
+    margin-left: 8px;
+    flex-direction: column;
+}
+
+.filters{
+    background: darkgray;
+    border: none;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.actions{
+    background-color: darkgray;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    gap: 18px;
+}
+
+.card{
+    background: gray;
+    border-radius: 14px;
+    width: 400px;
+    display: grid;
+    gap: 16px;
+    align-items: center;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background: darkgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.remove{
+    background: darkgray;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.switch{
+    width: 44px;
+    height: 24px;
+}
+
+.extensions-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
