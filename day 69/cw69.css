@@ -1,0 +1,14 @@
+.loading-container {
+  width: 400px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#loading-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00ffcc, #00aaff);
+  transition: width 0.1s;
+}
